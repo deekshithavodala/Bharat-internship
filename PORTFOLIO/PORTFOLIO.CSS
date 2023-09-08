@@ -1,0 +1,94 @@
+/* CSS reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Header */
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+  }
+  
+  .logo {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar a {
+    display: block;
+    padding: 3rem;
+    text-decoration: none;
+    color: #000000;
+font-size: medium; }
+  
+  .navbar a:hover {
+    background-color: #eee;
+  }
+  
+  /* Home section */
+  
+  .home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #eee;
+  }
+  
+  .home-content {
+    flex: 1;
+  }
+  
+  .home-img {
+    flex: 1;
+  }
+  
+  .home-content h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #01c5f6;
+  }
+  .home-content h3 {
+    font-weight: bold;
+    color: #f60101;
+  }
+  .home-content p {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #000;
+  }
+  
+  .home-img img {
+    float:right;
+    width: 40%;
+  }
+  
+  /* Footer */
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #fff;
+  }
+  
+  .footer p {
+    font-size: 1rem;
+    font-weight: normal;
+    color: #000;
+  }
